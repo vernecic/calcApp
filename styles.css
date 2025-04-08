@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  font: inherit;
+  outline: none;
+  cursor: pointer;
+}
+
+.calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(5, 100px);
+}
+.span-two {
+  grid-column: span 2;
+}
+
+.display {
+  background-color: rgba(0, 0, 0, 0.521);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  padding: 5px 10px;
+}
+
+.previousOperand {
+  font-size: 1.5rem;
+}
+
+.currentOperand {
+  font-size: 2rem;
+  margin-top: 10px;
+}
