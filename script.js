@@ -69,7 +69,7 @@ function calculate() {
     default:
       return;
   }
-  curOperand = result.toString(); // jer se REZULTAT prikazuje u curOperandu !
+  curOperand = result.toString();
   prevOperand = "";
   operator = "";
 
